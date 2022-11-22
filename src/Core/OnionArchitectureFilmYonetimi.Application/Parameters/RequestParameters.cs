@@ -18,5 +18,10 @@ namespace OnionArchitectureFilmYonetimi.Application.Parameters
             PageSize = pageSize;
             PageNumber = pageNumber;
         }
+
+
+
+
+
     }
 }

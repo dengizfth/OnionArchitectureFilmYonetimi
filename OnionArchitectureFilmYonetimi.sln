@@ -9,7 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{611D0D4D-8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitectureFilmYonetimi.Domain", "..\OnionArchitectureFilmYonetimisrc\Core\OnionArchitectureFilmYonetimi.Domain\OnionArchitectureFilmYonetimi.Domain.csproj", "{BAA7E0DF-7B3C-4258-BB1A-2097C74AE838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitectureFilmYonetimi.Application", "src\Core\OnionArchitectureFilmYonetimi.Application\OnionArchitectureFilmYonetimi.Application.csproj", "{BBE9A547-D4B7-4931-9661-33372F24A114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitectureFilmYonetimi.Application", "src\Core\OnionArchitectureFilmYonetimi.Application\OnionArchitectureFilmYonetimi.Application.csproj", "{BBE9A547-D4B7-4931-9661-33372F24A114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6B1AA044-D597-4881-A48C-25A7BF612E75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitectureFilmYonetimi.Persistence", "src\Infrastructure\OnionArchitectureFilmYonetimi.Persistence\OnionArchitectureFilmYonetimi.Persistence.csproj", "{952C927D-121F-4F86-A984-F3844BEAC0E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{014EBF37-3DD0-4B8F-A72E-6680D42B1D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitectureFilmYonetimi.WebApi", "src\WebApi\OnionArchitectureFilmYonetimi.WebApi\OnionArchitectureFilmYonetimi.WebApi.csproj", "{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{13531035-EA37-4295-BB86-38C00A1F2CF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +35,18 @@ Global
 		{BBE9A547-D4B7-4931-9661-33372F24A114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE9A547-D4B7-4931-9661-33372F24A114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE9A547-D4B7-4931-9661-33372F24A114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952C927D-121F-4F86-A984-F3844BEAC0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952C927D-121F-4F86-A984-F3844BEAC0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952C927D-121F-4F86-A984-F3844BEAC0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952C927D-121F-4F86-A984-F3844BEAC0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13531035-EA37-4295-BB86-38C00A1F2CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13531035-EA37-4295-BB86-38C00A1F2CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13531035-EA37-4295-BB86-38C00A1F2CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13531035-EA37-4295-BB86-38C00A1F2CF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +55,11 @@ Global
 		{611D0D4D-8094-4DB0-98B3-0270CC55997E} = {FDD24461-20B0-4C17-95BA-F2BD110B8A91}
 		{BAA7E0DF-7B3C-4258-BB1A-2097C74AE838} = {611D0D4D-8094-4DB0-98B3-0270CC55997E}
 		{BBE9A547-D4B7-4931-9661-33372F24A114} = {611D0D4D-8094-4DB0-98B3-0270CC55997E}
+		{6B1AA044-D597-4881-A48C-25A7BF612E75} = {FDD24461-20B0-4C17-95BA-F2BD110B8A91}
+		{952C927D-121F-4F86-A984-F3844BEAC0E0} = {6B1AA044-D597-4881-A48C-25A7BF612E75}
+		{014EBF37-3DD0-4B8F-A72E-6680D42B1D7F} = {FDD24461-20B0-4C17-95BA-F2BD110B8A91}
+		{3E7F5684-7C86-48F3-8AC5-6C7F6AECFF5F} = {014EBF37-3DD0-4B8F-A72E-6680D42B1D7F}
+		{13531035-EA37-4295-BB86-38C00A1F2CF7} = {014EBF37-3DD0-4B8F-A72E-6680D42B1D7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE818274-AE8E-411C-841C-1975BE641988}
